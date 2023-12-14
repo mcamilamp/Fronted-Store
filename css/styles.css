@@ -161,11 +161,15 @@ h3 { font-size: 2.4rem; }
 .grafico--camisa {
     grid-row: 2 / 3;
     background-image: url(../img/img/grafico1.jpg);
+    
+    
 }
 
 .grafico--node {
     background-image: url(../img/img/grafico2.jpg);
     grid-row: 8 / 9;
+    padding: 1rem;
+    background-color: var(--primarioOscuro);
 }
 
 @media (min-width: 768px) {
@@ -190,9 +194,13 @@ h3 { font-size: 2.4rem; }
 }
 
 .nosotros__contenido {
-
+    
 }
 
+.cont {
+    padding: 1rem;
+    background-color: var(--primarioOscuro);
+}
 
 .nosotros__imagen {
     grid-row: 1 / 2;
